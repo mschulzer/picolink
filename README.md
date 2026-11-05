@@ -60,4 +60,4 @@ led = Led(15)             # LED (with resistor) between GP15 and GND
 
 ## For more information
 The library was initially developed for FemTech '26 (Autumn), so it serves a somewhat specific purpose. However, everyone is free to use it as they see fit.
-If you have any questions, reach out: mosh@gi.ku.dk or sain@di.ku.dk
+If you have any questions, reach out: mosh@di.ku.dk or sain@di.ku.dk
