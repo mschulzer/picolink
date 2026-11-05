@@ -2,7 +2,7 @@
 
 **Simple Pico W to Pico W messaging, plus easy buttons and LEDs.**
 
-`picolink` lets two Raspberry Pi Pico W boards send text messages to each other over Wi-Fi. No router, no IP addresses and no networking code are needed. It also includes simple `Button` and `Led` classes, so you can focus on what your program should *do*.
+`picolink` lets two Raspberry Pi Pico W boards send text messages to each other over Wi-Fi. No router, no IP addresses and no networking code are needed. It also includes simple `Button` and `Led` classes.
 
 ---
 
@@ -57,3 +57,7 @@ led = Led(15)             # LED (with resistor) between GP15 and GND
 - Pico **A** creates its own small Wi-Fi network, and Pico **B** joins it.
 - Messages travel as small **UDP packets**.
 - Wi-Fi can lose packets, so each message is **sent a few times**. Duplicates are **filtered out** on arrival, so each message reaches your program only once.
+
+## For more information
+The library was initially developed for FemTech '26 (Autumn), so it serves a somewhat specific purpose. However, everyone is free to use it as they see fit.
+If you have any questions, reach out: mosh@gi.ku.dk or sain@di.ku.dk
