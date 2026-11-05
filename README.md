@@ -16,7 +16,7 @@ from picolink import Link, Button, Led
 
 link = Link("A")          # use "B" on the other Pico
 button = Button(14)       # button between GP14 and GND
-led = Led(15)             # LED (with resistor) between GP15 and GND
+led = Led(15)             # LED (with 220 Ohm resistor) between GP15 and GND
 ```
 
 > **Tip:** One Pico must be `"A"` and the other `"B"`. That is the only difference between the two boards.
