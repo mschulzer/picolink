@@ -58,6 +58,6 @@ led = Led(15)             # LED (with 220 Ohm resistor) between GP15 and GND
 - Messages travel as small **UDP packets**.
 - Wi-Fi can lose packets, so each message is **sent a few times**. Duplicates are **filtered out** on arrival, so each message reaches your program only once.
 
-## For more information
+## Disclaimer
 The library was initially developed for FemTech '26 (Autumn), so it serves a somewhat specific purpose. However, everyone is free to use it as they see fit.
 If you have any questions, reach out: mosh@di.ku.dk or sain@di.ku.dk
