@@ -1,3 +1,4 @@
+# Necessary imports
 from picolink import Link, Button, Led
 
 link = Link("B")
